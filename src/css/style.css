@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.logo a{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 45px;
+    padding: 35px 70px;
+    
+    
+ }
+
+ .navbar {
+    float: right;
+    margin: 20px;
+    padding: 20px 70px;
+    
+}
+
+.navbar ul a{
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a {
+    position: relative;
+}
+
+
+ .navbar a::before {
+   content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background-color: rgb(255, 0, 106);
+    transition: 1s;
+}
+
+.navbar a:hover::before {
+    width:30px;
+}
+
+.task {
+    width: 100%;
+    padding: 23rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/hero_02.jpg);
+    background-position: 86% 25%;
+    background-repeat: no-repeat;
+    background-size: 640px auto;
+
+}
+
+.task1 h1 {
+    color: #ffffff;
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 90px;
+    letter-spacing: -1.9px;
+    background-position: 86px 52px;
+   
+}
+
+.task1 a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    border: 2px solid  rgb(255, 0, 106); 
+    font-size: 17px;
+    position: relative;
+   z-index: 1;
+}
+
+.task1 a::before {
+    z-index: -1;
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color:rgb(255, 0, 106) ;
+    width:0%;
+    transition: 0.7s;
+}
+
+.task1 a:hover::before {
+ width: 100%;
+
+}
+
+.second {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -100px;
+    padding: -100px;
+    
+}
+
+.second a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(41, 41, 41);
+    border: 2px solid  rgb(255, 0, 106); 
+    font-size: 17px;
+    position: relative;
+}
+
+.second1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.second1 h1{
+    color: #1B1B1B;
+    font-family: "AvantGarde Bold", Sans-serif;
+  
+}
+
+
+.second1 h3 {
+    color:rgb(255, 0, 106) ;
+}
+
+
+
+
+
